@@ -1,11 +1,11 @@
-import { HomeCard } from "./components/HomeCard"; // Asegúrate de que coincida con cómo lo exportaste
-import { RecetaCard } from "./components/RecetaCard";
-import { Receta, Ingrediente } from './types'; // Importamos la interfaz
+
+
+import { Receta} from './types'; // Importamos la interfaz
 import { SearchBard } from "./components/SearchBard";
 import { useEffect, useState } from "react";
 import { SearchCard } from "./components/SearchCard";
 import { traducir } from "./services/translate";
-import { TraducirEspañol, TraducirPaquete } from './services/TranslateIngredients';
+import { TraducirPaquete } from './services/TranslateIngredients';
 
 // Datos mínimos para que no marque error
 
