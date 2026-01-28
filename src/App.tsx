@@ -1,6 +1,6 @@
 
 
-import { Receta} from './types'; // Importamos la interfaz
+import { Receta } from './types'; // Importamos la interfaz
 import { SearchBard } from "./components/SearchBard";
 import { useEffect, useState } from "react";
 import { SearchCard } from "./components/SearchCard";

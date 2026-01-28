@@ -1,4 +1,4 @@
-import React, { HtmlHTMLAttributes } from "react";
+import React, {} from "react";
 
 interface SearchBardProps{
     onSearch: (termino:string) => void;

@@ -1,4 +1,4 @@
-import { Receta, Ingrediente } from '../types';
+import { Receta} from '../types';
 
 interface SearchCardProps{
     receta: Receta
@@ -6,7 +6,7 @@ interface SearchCardProps{
 
 export const SearchCard =({ receta }: SearchCardProps) =>{
     return(
-        <div className="flex flex-col overflow-hidden rounded-2xl bg-white shadow-lg md:flex-row md:flex-row md-6 border border-gray-100 transition-transform hover:scale-[1.01]">
+        <div className="flex flex-col overflow-hidden rounded-2xl bg-white shadow-lg md-6 border border-gray-100 transition-transform hover:scale-[1.01]">
             <div className="h-64 w-full md:h-auto md:w-1/3">
                 <img src={receta.imagen} 
                      alt={receta.titulo}
